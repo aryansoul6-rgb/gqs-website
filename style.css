@@ -1,0 +1,87 @@
+/* GENERAL SETTINGS */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background-color: #111;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.2s ease;
+}
+
+nav ul li a:hover {
+  color: #00c3ff;
+}
+
+/* HERO SECTION */
+#hero {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: brightness(1.25); /* brighter */
+}
+
+/* INTRO SECTION */
+#intro {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+#intro button {
+  background-color: #111;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: 0.2s ease;
+}
+
+#intro button:hover {
+  background-color: #333;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  color: white;
+}
